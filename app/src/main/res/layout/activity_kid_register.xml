@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="@color/gray"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvPersonalInfoKid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/tvPersonalInfoKid"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNameChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvCompleteName"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etNameChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:ems="10"
+            android:hint="Nombre completo"
+            android:textColorHint="@color/gray"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:padding="20dp" />
+
+        <TextView
+            android:id="@+id/tvAgeChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvAge"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etAgeChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:minHeight="48dp"
+            android:ems="10"
+            android:hint="Edad"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:padding="20dp"/>
+        <TextView
+            android:id="@+id/tvAllergies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvAllergies"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinnerAllergies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:minHeight="48dp"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tvOtherAllergies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvOther"
+            android:minHeight="48dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etOtherAllergies"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seleccione una necesidad especial"
+            android:textColorHint="@color/gray"
+            android:background="@drawable/edittext_bottom_border"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvMedicalCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvMedicalCondition"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinnerMedicalConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:padding="20dp" />
+
+        <TextView
+            android:id="@+id/tvOtherMedicalCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvOther"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etOtherMedicalCondition"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Especifique la alergia"
+            android:textColorHint="@color/gray"
+            android:background="@drawable/edittext_bottom_border"
+            android:inputType="text"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvSpecialNeeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvSpecialNeeds"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <Spinner
+            android:id="@+id/spinnerSpecialNeeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:minHeight="48dp"
+            android:hint="Necesidades especiales"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvOtherSpecialNeeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvOther"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etOtherSpecialNeeds"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Especifique que necesidad"
+            android:textColorHint="@color/gray"
+            android:background="@drawable/edittext_bottom_border"
+            android:inputType="text"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvDescriptionKid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvDescription"
+            android:layout_marginTop="15dp"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etDescriptionKid"
+            android:minHeight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:textColor="@color/white"
+            android:hint="Descripción"
+            android:textColorHint="@color/gray"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="20dp" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="45dp">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="8dp"
+                app:cornerRadius="0dp"
+                android:text="@string/btnBack" />
+
+            <Button
+                android:id="@+id/btnContinue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/btnContinue"
+                android:layout_marginHorizontal="8dp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

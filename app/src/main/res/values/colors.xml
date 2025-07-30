@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#424242</color>
+    <color name="pink">#FFB6E3</color>
+    <color name="darkerGray">#52262626</color>
+    <color name="darkerPink">#C686AD</color>
+    <style name="SpinnerHintStyle" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+    <!--
+    <style name="CalendarViewStyle" parent="Widget.AppCompat.CalendarView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:selectedWeekTextColor">@android:color/white</item>
+    </style>-->
+</resources>

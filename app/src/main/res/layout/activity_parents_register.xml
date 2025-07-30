@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="@color/gray"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvPersonalInfoParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/tvPersonalInfoParent"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+    
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    
+            <Button
+                android:id="@+id/btnFather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/man"
+                android:background="@drawable/button_background_selector"
+                android:text="@string/btnFather"
+                android:textSize="25sp"
+                app:cornerRadius="0dp" />
+    
+            <Button
+                android:id="@+id/btnMother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_selector"
+                android:text="@string/btnMother"
+                android:drawableTop="@drawable/woman"
+                android:textSize="25sp"
+                app:cornerRadius="0dp" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvCompleteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvCompleteName"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+    
+        <EditText
+            android:id="@+id/etNameParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:ems="10"
+            android:hint="Nombre completo"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvDocument"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvDocument"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/spinnerDocs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:background="@color/darkerGray"
+                android:gravity="center_vertical"
+                android:minHeight="48dp"
+                android:padding="20dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/etDocumentParent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:background="@color/darkerGray"
+                android:ems="10"
+                android:hint="Número documento"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:minHeight="48dp"
+                android:padding="20dp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvAddressParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvAddressParent"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etAddressParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:minHeight="48dp"
+            android:ems="10"
+            android:hint="Diección"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvSpecificationsParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvSpecificationsParent"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etSpecificationsParent"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bottom_border"
+            android:inputType="text"
+            android:hint="Especificación de dirección"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"
+            android:padding="20dp" />
+        <TextView
+            android:id="@+id/tvCellphoneParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvCellphoneParent"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etCellphoneParent"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:ems="10"
+            android:hint="Número de celular"
+            android:textColorHint="@color/gray"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:padding="20dp" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/tvDescription"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/etDescriptionParents"
+            android:minHeight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkerGray"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:padding="20dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="45dp"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="8dp"
+                app:cornerRadius="0dp"
+                android:text="@string/btnBack" />
+
+            <Button
+                android:id="@+id/btnContinue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/btnContinue"
+                android:layout_marginHorizontal="8dp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

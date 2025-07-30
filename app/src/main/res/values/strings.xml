@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">NanniApp</string>
+    <!--main-->
+    <string name="tvPrincipal">¡Bienvenid@!</string>
+    <string name="tvPrincipal2">¿Cómo te gustaría empezar?</string>
+    <string name="btnRegistro">Crear una cuenta</string>
+    <string name="btnInicio">Ya tengo una cuenta</string>
+    <string name="tvLogin">Inicia sesión</string>
+    <string name="tvNanniEmail">Email:</string>
+    <string name="tvNanniName">Usuario:</string>
+    <string name="tvNanniPass">Contraseña:</string>
+    <string name="tvRegister">Crea tu cuenta</string>
+    <string name="tvNanniPassC">Confirmar contraseña:</string>
+    <string name="tvPassText">La contraseña debe contener entre 8 y 15 carácteres.</string>
+    <!--Padres-->
+    <string name="tvPersonalInfoParent">Tu información personal</string>
+    <string name="btnFather">Soy padre</string>
+    <string name="btnMother">Soy madre</string>
+    <string name="btnOther">Otro</string>
+    <string name="tvCompleteName">Nombre completo:</string>
+    <string name="tvDocument">Documento de identidad:</string>
+    <string name="tvTypeIdentityParent">C.C</string>
+    <string name="tvAddressParent">Dirección:</string>
+    <string name="tvSpecificationsParent">Parentesco:</string>
+    <string name="tvCellphoneParent">Celular:</string>
+    <string name="tvEmailParent">Email:</string>
+    <string name="tvPasswordParent">Contraseña: </string>
+    <string name="tvNumberOfKids">Cantidad de hijos:</string>
+    <string name="tvDescription">Descripción:</string>
+    <string name="btnBack">Volver</string>
+    <string name="btnContinue">Continuar</string>
+    <!--Niños-->
+    <string name="tvPersonalInfoKid">Información de tus niños</string>
+    <string name="btnGirl">Niño</string>
+    <string name="btnBoy">Niña</string>
+    <string name="tvTypeIdentity">C.C</string>
+    <string name="tvAge">Edad:</string>
+    <string name="tvAllergies">Alergias:</string>
+    <string name="tvOther">Otra:</string>
+    <string name="tvMedicalCondition">Condición médica:</string>
+    <string name="tvSpecialNeeds">Necesidades especiales:</string>
+    <string-array name="allergies">
+        <item>Polen</item>
+        <item>Polvo</item>
+        <item>Caspa de mascotas</item>
+        <item>Huevos</item>
+        <item>Leche de vaca</item>
+        <item>Mariscos</item>
+        <item>Frutos secos</item>
+        <item>Picaduras de insectos</item>
+        <item>Medicamentos(Penicilina, Aspirina, Antibióticos sulfamidas...)</item>
+        <item>Latex</item>
+    </string-array>
+    <string-array name="medical_conditions">
+        <item>Asma</item>
+        <item>Rinitis alérgica</item>
+        <item>Dermatitis atópica</item>
+    </string-array>
+    <string-array name="special_needs">
+        <item>Trastorno del espectro autista (TEA)</item>
+        <item>Síndrome de Down</item>
+        <item>Déficit de atención e hiperactividad (TDAH)</item>
+        <item>Discapacidad intelectual</item>
+        <item>Parálisis cerebral</item>
+        <item>Trastorno del lenguaje</item>
+        <item>Trastorno del procesamiento sensorial</item>
+        <item>Trastorno del aprendizaje</item>
+        <item>Trastorno oposicionista desafiante (TOD)</item>
+        <item>Trastornos del habla y del lenguaje</item>
+    </string-array>
+    <string-array name="docs">
+        <item>CC</item>
+        <item>CE</item>
+    </string-array>
+    <!--Perfil de Niñera-->
+    <string name="tvNanniProfile">¿Qué estás buscando?</string>
+    <string name="btnNanniMale">Niñero</string>
+    <string name="btnNanniFemale">Niñera</string>
+    <string name="btnNoMatter">No importa</string>
+    <string name="tvMin">Min</string>
+    <string name="tvMax">Max</string>
+    <string name="tvLanguageSpoken">Idioma hablado</string>
+    <string name="tvSkills">Habilidades:</string>
+    <string name="tvBudget">Valor dispuesto a pagar:</string>
+    <string name="tvValuePerHour">(Valor por hora)</string>
+    <!--Principal-->
+    <string name="tvPagPrincipal">Cuidadores disponibles </string>
+    <string name="tvUser1">Santiago Joya Medina</string>
+    <string name="tvUser2">Laura Valentina Henao</string>
+    <string name="tvLocatioon">Kra 45 #40-01</string>
+    <string name="tvLocatioon2">Calle 12a #13-27</string>
+    <string name="tvSalario">$80.000</string>
+    <string name="tvSalario2">$100.000</string>
+    <!--Notificacion-->
+    <string name="tvNotification">Notificaciones </string>
+    <string name="tvNot1">Laura Henao ha solicitado un servicio.</string>
+    <string name="tvNot2">Lina Cruz ha cancelado un servicio.</string>
+    <string name="tvNot3">Laura Henao ha solicitado un servicio.</string>
+    <string name="tvNot4">Santiago Joya ha solicitado un servicio.</string>
+    <!--Schedule-->
+    <string name="tvProgamService">Programar un servicio</string>
+    <string name="tvHour">Hora:</string>
+    <string name="tvStart">Inicio</string>
+    <string name="tvEnd">Fin</string>
+    <string name="Description">Descripción:</string>
+    <string name="Ubication">Ubicación:</string>
+    <string name="Salary">Salario dispuesto a pagar: </string>
+    <string name="Time">Horario requerido: </string>
+    <string name="Kids">Cantidad de niños: </string>
+    <string name="Contact">Contacto: </string>
+    <string name="btnAccept">ACEPTAR </string>
+    <string name="btnDecline">RECHAZAR </string>
+</resources>
